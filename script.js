@@ -1,8 +1,10 @@
 
 
+
 const tap = document.getElementById("tap");
 const balance = document.getElementById("balance");
 let currentBalance = 0;
+autoIncreased = false;
 
 tap.addEventListener("click", () => {
   let amount = 10;
